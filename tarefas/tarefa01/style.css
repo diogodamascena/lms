@@ -81,6 +81,12 @@ aside ul{
     list-style-position: inside;
 }
 
+aside img:hover{ /*Algo para sinalizar que a imagem é um link e não apenas uma imagem*/
+    border: 5px solid aliceblue;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
 footer{
     background-color: rgb(255, 154, 208);
     margin: auto;
