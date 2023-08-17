@@ -55,7 +55,7 @@ main{
 
 main p{
     color: aliceblue;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
 }
 
 main h1{
@@ -108,7 +108,7 @@ table{
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid aliceblue;
     text-align: left;
     padding: 8px;
   }
@@ -118,5 +118,5 @@ th{
 }
 
 a:hover{
-    color: #dddddd;
+    color: aliceblue;
 }
