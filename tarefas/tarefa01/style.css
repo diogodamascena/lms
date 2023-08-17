@@ -60,6 +60,7 @@ main p{
 
 main h1{
     color: rgb(255, 154, 208);
+    margin: 15px 0px 15px 0px;
 }
 
 main h2{
@@ -73,7 +74,7 @@ aside{
 }
 
 aside p{
-    color: black;
+    color: rgb(44, 44, 44);;
 }
 
 aside ul{
@@ -98,12 +99,14 @@ footer{
     background-color:rgb(255, 154, 208);
     border-radius: 15px;
     padding: 15px;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 30px 0px;
+    text-decoration: none;
+    color: rgb(44, 44, 44);;
 }
 
 .bvoltar:hover{
     background-color: aliceblue;
-    color: black;
+    color: rgb(44, 44, 44);;
 }
 
 table{
@@ -125,4 +128,8 @@ th{
 
 a:hover{
     color: aliceblue;
+}
+
+img{
+    margin: 15px 10px 15px 0px;
 }
