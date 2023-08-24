@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarefa 2</title>
+    <title>Blackpink</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--O link do Style aqui pq resolvi fazer o css em outro arquivo por conta da quantidade de página que pretendo fazer no site, assim fica mais fácil de mudar tudo ao mesmo tempo-->
 </head>
-
 <body>
-
     <header>
-        <h1>Site legal</h1>
+        <h1>BLACKPINK</h1>
+        <p><em>The Biggest Girl Group in the world</em> - Rolling Stones</p>
     </header>
-
+    <!--Usarei um navegador para brincar um pouco com os links entre as páginas do mesmo site e na aside irei adicionar os links na lista para direcionar a caminhos externos-->
     <nav>
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
-        <a href="">Link</a>
+        <a href="index.html">Home</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="compras.html">Compras</a>
+        <a href="sobre.html">Sobre</a>
     </nav>
-
     <main>
         <article>
-            <h1>Titulo</h1>
+            <h1>Introdução</h1>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, vel? At consequatur modi autem doloremque ipsam possimus, quo, libero, tempora pariatur reprehenderit similique ducimus ullam rerum illo corrupti rem deleniti?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, sit quasi iusto magnam libero impedit corrupti. Sapiente quaerat facilis error voluptatum. Fugiat eos corporis deleniti quas amet sit eligendi dicta.</p>
+            <p>O BLACKPINK é um popular grupo sul-coreano de k-pop formado pela YG Entertainment em 2016. O grupo é composto por quatro integrantes: Jisoo, Jennie, Rosé e Lisa. Desde sua estreia, o BLACKPINK rapidamente se tornou uma das principais sensações da indústria de entretenimento sul-coreana e ganhou reconhecimento internacional.</p>
+            <p>O grupo é conhecido por seu estilo musical diversificado, que abrange diversos gêneros como pop, hip-hop, EDM e até mesmo elementos de música tradicional coreana. As canções do BLACKPINK são frequentemente caracterizadas por ritmos cativantes, letras envolventes e performances intensas.</p>
+            <p>O BLACKPINK é também famoso por seus videoclipes visualmente deslumbrantes e coreografias marcantes. O grupo conquistou muitos recordes e conquistas, incluindo o título de vídeo musical de k-pop mais visto nas primeiras 24 horas com o lançamento de "How You Like That" e "Ice Cream".</p>
+            <p>Além da música, o BLACKPINK é uma presença influente na moda e na cultura pop. As integrantes são frequentemente vistas em eventos de moda e colaboram com várias marcas de luxo e designers. Jennie, por exemplo, é conhecida por seu estilo ousado e elegante.</p>
+
+
+            <h2>O último lançamento</h2>
+            <p>Embora o BLACKPINK tenha desfrutado de um sucesso massivo, também houve críticas em relação à quantidade limitada de músicas lançadas em comparação com outros grupos e à gestão da YG Entertainment. Fãs em todo o mundo, conhecidos como "Blinks", continuam a apoiar o grupo e aguardam ansiosamente por novos lançamentos e atividades.</p>
+            <p>O grupo lançou o último álbum chamado "Born Pink", composto por 8 músicas, entre elas, Shut Down e Pink Venom, sendo atualmente a música por um ato feminino mais visto no primeiro na plataforma do Youtube, acumulando mais de 90 milhões nas primeiras 24 horas.</p>
+
+            <h2>O impacto dos últimos lançamentos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, maiores officia! Reiciendis ipsam ratione commodi similique nisi atque mollitia ex dolorem blanditiis quas ab iusto tempore, hic at molestias ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel deleniti, ducimus sapiente illo, vitae quidem, velit facilis nesciunt necessitatibus tempore odit quo dolorum quae accusamus dicta eum unde ratione!</p>
+
+            <table>
+                <tr>
+                    <th>Music Video</th>
+                    <th>Data de Lançamento</th>
+                    <th>Views em 24 horas</th>
+                </tr>
+                <tr>
+                    <td>Pink Venom</td>
+                    <td>19 de agosto de 2022</td>
+                    <td><strong>90.4M</strong></td>
+                </tr>
+                <tr>
+                    <td>How You Like That</td>
+                    <td>26 de junho de 2020</td>
+                    <td>86.3M</td>
+                </tr>
+                <tr>
+                    <td>Ice Cream</td>
+                    <td>28 de agosto de 2020</td>
+                    <td>79.0M</td>
+                </tr>
+            </table>
+
+            <aside>
+                <p>Saiba das últimas novidades sobre o maior grupo musical feminino mundo!</p>
+
+                <ul>
+                    <!--Fiz o cuidado de ao clicar no link, por conta da target blank, abrir uma nova aba-->
+                    <li><a href="https://open.spotify.com/intl-pt/album/7jaSNQUBJbvfbZHLNFrV7P" target="_blank"><img src="Blackpink_-_Born_Pink.png" alt="Clique para ouvir o último álbum no Spotify"></a></li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Blackpink" target="_blank">Wikipédia do BLACKPINK</a></li>
+                    <li><a href="https://www.youtube.com/@BLACKPINK" target="_blank">Canal do Youtube</a></li>
+                    <li><a href="curiosidades.html" target="_self">ir a proxima pagina</a></li>
+                </ul>
+            </aside>
         </article>
 
-        <article>
+        <article id="cadastro">
             <h1>Cadastro</h1>
-
+<!--maxleanf, number, disable-->
             <form action="https://www.w3schools.com/action_page.php" method="get">
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome" value="Diogo"><br>
@@ -37,9 +83,9 @@
             <input type="text" id="sobrenome" name="sobrenome" value="Damascena"><br><br>
             
             <p>Você gostaria de receber atualizações sobre em seu e-mail?</p>
-            <input type="radio" id="sim" name="sim" value="sim">
+            <input type="radio" id="sim" name="opcao" value="sim">
             <label for="sim">Sim</label> <br>
-            <input type="radio" id="nao" name="nao" value="nao">
+            <input type="radio" id="nao" name="opcao" value="nao">
             <label for="nao">Não</label> <br>
 
             <p>Qual dos últimos lançamentos você gostou?</p>
@@ -48,27 +94,22 @@
             <input type="checkbox" id="sigle2" name="sigle2" value="Shut Down">
             <label for="sigle2">Shut Down</label>
             <input type="checkbox" id="sigle3" name="sigle3" value="Lovesick Girls">
-            <label for="sigle3">Lovesick Girls</label>
+            <label for="sigle3">Lovesick Girls</label> <br>
+
+            <input type="number" id="">
 
             
             
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Enviar">
+            <br>
             </form>
         </article>
 
-    </main>
 
+    </main>
     <footer>
-        <p>Desenvolvido por Diogo Damascena - 22/08/2023 - Linguagem de Marcação e Script</p>
+        <p>Desenvolvido por <a href="https://github.com/diogodamascena" target="_blank">Diogo Damascena</a> - 24/08/2023 - Aula de <strong>Linguagem de Marcação e Script</strong></p>
     </footer>
 </body>
 </html>
-
-<!--
-    <input type="texto">	Exibe um campo de entrada de texto de linha única
-    <input type="rádio">	Exibe um botão de opção (para selecionar uma das muitas opções)
-    <input type="checkbox">	Exibe uma caixa de seleção (para selecionar zero ou mais de muitas opções)
-    <input type="enviar">	Exibe um botão de envio (para enviar o formulário)
-    <input type="button">	Exibe um botão clicável
--->

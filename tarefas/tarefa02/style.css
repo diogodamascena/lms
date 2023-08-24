@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    /*Para remover a margem e o padding já pre-definidos*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+header{
+    /*A parte de cima do site*/
+    background-color: aliceblue;
+    color: rgb(255, 154, 208);
+    padding: 35px;
+}
+
+header>p{
+    color:  rgb(44, 44, 44);
+}
+
+nav{
+    /*Um navegador para brincar com os links internos*/
+    background-color: rgb(255, 154, 208);
+    padding: 15px 0px 15px 10px;
+    border-radius: 0px 0px 15px 15px; /*Arredondando as bordas*/
+}
+
+nav> a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+/*para mudar a cor ao clicar por cima dos links no navegador, então, todo link dentro do nav, terá a mesma característica*/
+nav>a:hover{
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 154, 208);
+    padding: 16px;
+    border-radius: 15px;
+    transition: 0.3s; /*Para dar o efeito de "animação"*/
+}
+
+main{
+    /*Colocando o max e o min para as linhas não ficarem tão longas e assim não ocuparem todo o espaço da tela, evitando o uso de tanta tag br*/
+    min-width: 300px;
+    max-width: 1000px;
+    /*MARGIN auto para centralizar*/
+    margin: auto;
+    padding: 10px;
+}
+
+main p{
+    color: aliceblue;
+    padding: 15px 0px 15px 0px;
+}
+
+main h1{
+    color: rgb(255, 154, 208);
+    margin: 15px 0px 15px 0px;
+}
+
+main h2{
+    color: aliceblue;
+}
+
+aside{
+    background-color: rgb(255, 154, 208);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+aside p{
+    color: rgb(44, 44, 44);;
+}
+
+aside ul{
+    /*para colocar os pontos da lista dentro do container*/
+    list-style-position: inside;
+}
+
+aside img:hover{ /*Algo para sinalizar que a imagem é um link e não apenas uma imagem*/
+    border: 5px solid aliceblue;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+footer{
+    background-color: rgb(255, 154, 208);
+    margin: auto;
+    padding: 25px 25px 25px 10px;
+}
+
+.bvoltar{
+    /*Criei uma classe para os botões de voltar, não sei se é uma técnica considerada boa, mas no momento agilizou o que eu queria fazer*/
+    background-color:rgb(255, 154, 208);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 0px 30px 0px;
+    text-decoration: none;
+    color: rgb(44, 44, 44);;
+}
+
+.bvoltar:hover{
+    background-color: aliceblue;
+    color: rgb(44, 44, 44);;
+}
+
+table{
+    border-collapse: collapse;
+    color: aliceblue;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid aliceblue;
+    text-align: left;
+    padding: 8px;
+  }
+
+th{
+    color: rgb(255, 154, 208) ;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+img{
+    margin: 15px 10px 15px 0px;
+}
+
+
+#cadastro{
+    background-color: rgb(255, 154, 208);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0px 20px 0px;
+}
+
+#cadastro > h1{
+    color: black;
+}
+
+#cadastro > form p{
+    color: black;
+}
+
+#cadastro:hover{
+    padding: 25px;
+    transition: 1s;
+}
