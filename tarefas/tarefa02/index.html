@@ -75,18 +75,23 @@
 
         <article id="cadastro">
             <h1>Cadastro</h1>
-<!--maxleanf, number, disable-->
+
             <form action="https://www.w3schools.com/action_page.php" method="get">
+
             <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome" value="Diogo"><br>
+            <input type="text" id="nome" name="nome" value="Diogo" maxlength="15"><br>
+
             <label for="sobrenome">Sobrenome:</label><br>
-            <input type="text" id="sobrenome" name="sobrenome" value="Damascena"><br><br>
+            <input type="text" id="sobrenome" name="sobrenome" value="Damascena" maxlength="15"><br>
+
+            <label for="e-mail">E-mail:</label><br>
+            <input type="text" name="e-mail" value="@gmail.com"><br><br>
             
             <p>Você gostaria de receber atualizações sobre em seu e-mail?</p>
             <input type="radio" id="sim" name="opcao" value="sim">
             <label for="sim">Sim</label> <br>
             <input type="radio" id="nao" name="opcao" value="nao">
-            <label for="nao">Não</label> <br>
+            <label for="nao">Não</label> <br><br>
 
             <p>Qual dos últimos lançamentos você gostou?</p>
             <input type="checkbox" id="sigle1" name="sigle1" value="Pink Venom">
@@ -94,13 +99,12 @@
             <input type="checkbox" id="sigle2" name="sigle2" value="Shut Down">
             <label for="sigle2">Shut Down</label>
             <input type="checkbox" id="sigle3" name="sigle3" value="Lovesick Girls">
-            <label for="sigle3">Lovesick Girls</label> <br>
+            <label for="sigle3">Lovesick Girls</label> <br><br>
 
-            <input type="number" id="">
-
+            <p>Qual sua idade? <input type="number" name="idade" value="18" min="18" max="110"/></p>
             
+            <input type="text" name="lembrete" value="blackpink in your area" disabled> <br><br>
             
-            <br>
             <input type="submit" value="Enviar">
             <br>
             </form>
