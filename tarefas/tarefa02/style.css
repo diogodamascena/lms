@@ -14,6 +14,7 @@ body{
 
 header{
     /*A parte de cima do site*/
+    text-align: center;
     background-color: aliceblue;
     color: rgb(255, 154, 208);
     padding: 35px;
@@ -25,12 +26,14 @@ header>p{
 
 nav{
     /*Um navegador para brincar com os links internos*/
+    text-align: center;
     background-color: rgb(255, 154, 208);
     padding: 15px 0px 15px 10px;
     border-radius: 0px 0px 15px 15px; /*Arredondando as bordas*/
 }
 
 nav> a {
+    padding: 5px;
     text-decoration: none;
     color: rgb(44, 44, 44);
 }
@@ -90,7 +93,7 @@ aside img:hover{ /*Algo para sinalizar que a imagem é um link e não apenas uma
 
 footer{
     background-color: rgb(255, 154, 208);
-    margin: auto;
+    text-align: center;
     padding: 25px 25px 25px 10px;
 }
 
