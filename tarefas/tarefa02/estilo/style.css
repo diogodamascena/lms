@@ -157,3 +157,19 @@ img{
     padding: 25px;
     transition: 1s;
 }
+
+#compra{
+    background-color: rgb(255, 154, 208);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0px 20px 0px;
+}
+
+#compra > h1{
+    color: black;
+}
+
+#compra > form p{
+    color: black;
+}
+
