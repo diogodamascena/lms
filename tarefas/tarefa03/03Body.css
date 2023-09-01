@@ -69,3 +69,73 @@ div.absolute_body18 {
     left: 180px;
     background-color: red
 }
+
+div.absolute_body21{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: red
+}
+
+div.absolute_body22{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background-color: red
+}
+
+div.absolute_body23{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    background-color: red
+}
+
+div.absolute_body24{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background-color: blue
+}
+
+div.absolute_body25{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    background-color: red
+}
+
+div.absolute_body26{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: red
+}
+
+div.absolute_body27{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    background-color: blue
+}
+
+div.absolute_body28{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    background-color: red
+}
+
+div.absolute_body29{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    background-color: red
+}
+
+div.absolute_body210{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    background-color: red
+}
