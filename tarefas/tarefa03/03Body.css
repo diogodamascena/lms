@@ -447,3 +447,43 @@ div.absolute_body612{
     left: 220px;
     background-color: yellow
 }
+
+
+
+div.absolute_body71{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    background-color: blue
+}
+div.absolute_body72{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    background-color: blue
+}
+div.absolute_body73{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    background-color: blue
+}
+div.absolute_body74{
+    position: absolute;
+    top: 120px;
+    left: 140px;
+    background-color: blue
+}
+div.absolute_body75{
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    background-color: blue
+}
+div.absolute_body76{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    background-color: blue
+}
+
