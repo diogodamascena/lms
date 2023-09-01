@@ -232,13 +232,13 @@ div.absolute_body41{
     position: absolute;
     top: 60px;
     left: 0px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body42{
     position: absolute;
     top: 60px;
     left: 20px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body43{
     position: absolute;
@@ -292,12 +292,12 @@ div.absolute_body411{
     position: absolute;
     top: 60px;
     left: 200px;
-    background-color: yellow
+    background-color: burlywood
 }div.absolute_body412{
     position: absolute;
     top: 60px;
     left: 220px;
-    background-color: yellow
+    background-color: burlywood
 }
 
 
@@ -305,19 +305,19 @@ div.absolute_body51{
     position: absolute;
     top: 80px;
     left: 0px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body52{
     position: absolute;
     top: 80px;
     left: 20px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body53{
     position: absolute;
     top: 80px;
     left: 40px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body54{
     position: absolute;
@@ -359,19 +359,19 @@ div.absolute_body510{
     position: absolute;
     top: 80px;
     left: 180px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body511{
     position: absolute;
     top: 80px;
     left: 200px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body512{
     position: absolute;
     top: 80px;
     left: 220px;
-    background-color: yellow
+    background-color: burlywood
 }
 
 
@@ -379,13 +379,13 @@ div.absolute_body61{
     position: absolute;
     top: 100px;
     left: 0px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body62{
     position: absolute;
     top: 100px;
     left: 20px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body63{
     position: absolute;
@@ -439,13 +439,13 @@ div.absolute_body611{
     position: absolute;
     top: 100px;
     left: 200px;
-    background-color: yellow
+    background-color: burlywood
 }
 div.absolute_body612{
     position: absolute;
     top: 100px;
     left: 220px;
-    background-color: yellow
+    background-color: burlywood
 }
 
 
@@ -528,4 +528,52 @@ div.absolute_body86{
 
 
 
+div.absolute_body91{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    background-color: brown
+}
+div.absolute_body92{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    background-color: brown
+}
+div.absolute_body93{
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    background-color: brown
+}
+div.absolute_body94{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    background-color: brown
+}
 
+div.absolute_body95{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    background-color: brown
+}
+div.absolute_body96{
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    background-color: brown
+}
+div.absolute_body97{
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    background-color: brown
+}
+div.absolute_body98{
+    position: absolute;
+    top: 160px;
+    left: 220px;
+    background-color: brown
+}
