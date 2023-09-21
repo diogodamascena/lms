@@ -4,8 +4,12 @@ body{
     margin: auto;
 }
 
+h1{
+    color: rgb(68, 177, 77);;
+}
+
 article{
-    border: solid 2px;
+    border: solid 2px rgb(68, 177, 77);;
     border-radius: 15px;
     padding: 16px;
 }
@@ -24,6 +28,7 @@ article{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     padding: 0px 10px 0px 20px;
+    margin-top: 20px;
 }
 
 .nav-superior> .botao:hover{
@@ -41,6 +46,7 @@ article{
 
 .dropdown:hover .conteudo-dropdown{
     display: block;
+    margin-top: 20px;
 }
 
 .conteudo-dropdown a{

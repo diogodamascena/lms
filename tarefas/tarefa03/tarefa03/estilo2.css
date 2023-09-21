@@ -1,3 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-lateral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 62, 99);
+    color:#fff;
+    width: 400px;
+    height: 100vh;
+}
+
 .botao{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
@@ -6,15 +25,61 @@
     color: white;
 }
 
-.botao:hover{
-    background-color: blue;
+.nav-lateral> .botao, .dropdown> .botao-dropdown {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 }
 
-.nav-lateral{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: burlywood;
-    width: 400px;
-    height: 100vh;
+.botao:hover{
+    background-color: rgb(10, 10, 68);
+}
+
+.conteudo {
+    margin-left: 430px;
+    margin-right: 50px;
+    margin-top: 100px;
+    font-size: 15px;
+    border: 3px solid black; 
+    
+    /* padding-left: 120vh; */
+}
+
+.dropdown> .dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: rgb(77, 113, 146);
+    width: 300px;
+
+
+}
+
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+    
+}
+
+.dropdown-conteudo a {
+    padding: 20px;
+    display: block;
+    background-color: rgb(11, 36, 59);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropdown-conteudo a:hover, .botao-dropdown:hover {
+    background-color: rgb(10, 10, 68);
+    cursor: pointer;
+}
+
+.cont-text{
+    padding-left: 410px;
+}
+
+article{
+    border: solid 2px rgb(68, 177, 77);;
+    border-radius: 15px;
+    padding: 16px;
 }
