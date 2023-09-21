@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 45px;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 10px;
+
+}
+
+header nav ul li{
+    padding: 0px 10px 0px 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: indianred;
+    font-weight: bolder;
+}
+
+section{
+    height: 50vh;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 1% 0px 0px 0px;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img{
+    height: 200px;
+    border-radius: 80%;
+}
+
+.container h2{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.container p, ul{
+    margin: 2% 0px 0px 0px;
+    font-size: 1.2em;
+}
+
+footer{
+    line-height: 40px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#introducao{
+    background-color: burlywood;
+}
+
+
+#sobre{
+    background-color: firebrick;
+}
+
+#contato{
+    background-color: indianred;
+}
