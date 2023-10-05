@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+
+        .container{
+            overflow: auto;
+        }
+
+        #conteudo{
+            margin-left: 5px;
+        }
+
+        .menu-esquerdo{
+            float: none;
+            width: auto;
+        }
+
+        .menu{
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu-item{
+            background-color: burlywood;
+            border: 1px solid;
+            border-radius: 15px;
+            list-style-type: none;
+            margin: 4px;
+            padding: 4px;
+        }
+
+        
+        @media screen and (min-width: 500px) {
+            .menu-esquerdo{
+                width: 200px;
+                float: left;
+            }
+
+            #conteudo{
+                margin-left: 220px;
+            }
+
+            .menu{
+                display: block;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--menu lateral esquerdo/superior-->
+        <div class="menu-esquerdo">
+            <ul class="menu">
+                <li class="menu-item">item 1</li>
+                <li class="menu-item">item 2</li>
+                <li class="menu-item">item 3</li>
+                <li class="menu-item">item 4</li>
+            </ul>
+            
+        </div>
+
+        <!--conteudo-->
+        <div id="conteudo">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed esse quod iusto repellat, nobis ad suscipit id cum facere aperiam vero quisquam libero? Nam quod deleniti fuga perspiciatis neque.
+            </p>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
